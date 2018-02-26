@@ -1215,6 +1215,16 @@ g:ale_open_list                                               *g:ale_open_list*
 
   The window size can be configured with |g:ale_list_window_size|.
 
+  Windows can be opened vertically with |g:ale_list_vertical|.
+
+g:ale_list_vertical                                       *g:ale_list_vertical*
+                                                          *g:ale_list_vertical*
+  Type: |Number|
+  Default: `0`
+
+  When set to `1`, this will cause ALE to open any windows (loclist or
+  quickfix) vertically instead of horizontally (|vert| |lopen|) or (|vert|
+  |copen|)
 
 g:ale_pattern_options                                   *g:ale_pattern_options*
 
